@@ -1,0 +1,126 @@
+﻿{
+  "name": "IISFinalochkaПланЗакупок",
+  "modelName": "i-i-s-finalochka-план-закупок",
+  "className": "ПланЗакупок",
+  "nameSpace": "IIS.Finalochka",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаНачала",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "организации",
+      "relatedTo": "i-i-s-finalochka-организации",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "склады",
+      "relatedTo": "i-i-s-finalochka-склады",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "план",
+      "relatedTo": "i-i-s-finalochka-план",
+      "inverse": "планЗакупок"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ПланЗакупокE",
+      "modelName": "i-i-s-finalochka-план-закупок",
+      "attrs": [
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Организации",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "организация",
+              "caption": "",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "организации",
+          "relatedTo": "i-i-s-finalochka-организации",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Склады",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "склад",
+              "caption": "",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "склады",
+          "relatedTo": "i-i-s-finalochka-склады",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ПланE",
+          "caption": "План",
+          "name": "план",
+          "relatedTo": "i-i-s-finalochka-план",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ПланЗакупокL",
+      "modelName": "i-i-s-finalochka-план-закупок",
+      "attrs": [
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalochka-отчет-о-закупках-e",
+  "editForm": "i-i-s-finalochka-отчет-о-закупках-e",
+  "external": false,
+  "caption": "Отчет о закупках",
+  "name": "IISFinalochkaОтчетОЗакупкахL",
+  "className": "ОтчетОЗакупкахL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalochka-отчет-о-закупках",
+      "modelProjection": "ОтчетОЗакупкахL"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Заказ пост",
+  "name": "IISFinalochkaЗаказПостE",
+  "className": "ЗаказПостE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalochka-заказ-пост",
+      "modelProjection": "ЗаказПостE"
+    }
+  ]
+}

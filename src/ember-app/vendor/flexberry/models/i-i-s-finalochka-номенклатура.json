@@ -1,0 +1,84 @@
+﻿{
+  "name": "IISFinalochkaНоменклатура",
+  "modelName": "i-i-s-finalochka-номенклатура",
+  "className": "Номенклатура",
+  "nameSpace": "IIS.Finalochka",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номенклатура",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "контрагенты",
+      "relatedTo": "i-i-s-finalochka-контрагенты",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "НоменклатураE",
+      "modelName": "i-i-s-finalochka-номенклатура",
+      "attrs": [
+        {
+          "name": "номенклатура",
+          "caption": "Номенклатура",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Контрагенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "контрагент",
+              "caption": "",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "контрагенты",
+          "relatedTo": "i-i-s-finalochka-контрагенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "НоменклатураL",
+      "modelName": "i-i-s-finalochka-номенклатура",
+      "attrs": [
+        {
+          "name": "номенклатура",
+          "caption": "Номенклатура",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

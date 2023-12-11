@@ -1,0 +1,295 @@
+﻿{
+  "name": "IISFinalochkaЗаказПост",
+  "modelName": "i-i-s-finalochka-заказ-пост",
+  "className": "ЗаказПост",
+  "nameSpace": "IIS.Finalochka",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаНачала",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаОкончания",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состОтгрузки",
+      "type": "i-i-s-finalochka-сост-поставок",
+      "flexberryType": "СостПоставок",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состояниеОплаты",
+      "type": "i-i-s-finalochka-сост-оплаты",
+      "flexberryType": "СостОплаты",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "суммаВклНДС",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "суммаДокумента",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "контрагенты",
+      "relatedTo": "i-i-s-finalochka-контрагенты",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "организации",
+      "relatedTo": "i-i-s-finalochka-организации",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "склады",
+      "relatedTo": "i-i-s-finalochka-склады",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "заказ",
+      "relatedTo": "i-i-s-finalochka-т-ч-заказ",
+      "inverse": "заказПост"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЗаказПостE",
+      "modelName": "i-i-s-finalochka-заказ-пост",
+      "attrs": [
+        {
+          "name": "датаОкончания",
+          "caption": "Дата окончания",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "суммаДокумента",
+          "caption": "Сумма документа",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "состояниеОплаты",
+          "caption": "Состояние оплаты",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Контрагенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "контрагент",
+              "caption": "",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "контрагенты",
+          "relatedTo": "i-i-s-finalochka-контрагенты",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Организации",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "организация",
+              "caption": "",
+              "hidden": false,
+              "index": 5
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "организации",
+          "relatedTo": "i-i-s-finalochka-организации",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Склады",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "склад",
+              "caption": "",
+              "hidden": false,
+              "index": 6
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "склады",
+          "relatedTo": "i-i-s-finalochka-склады",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ТЧЗаказE",
+          "caption": "Заказ",
+          "name": "заказ",
+          "relatedTo": "i-i-s-finalochka-т-ч-заказ",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ЗаказПостL",
+      "modelName": "i-i-s-finalochka-заказ-пост",
+      "attrs": [
+        {
+          "name": "датаОкончания",
+          "caption": "Дата окончания",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "суммаДокумента",
+          "caption": "Сумма документа",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "состояниеОплаты",
+          "caption": "Состояние оплаты",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗаказПоставщикуE",
+      "modelName": "i-i-s-finalochka-заказ-пост",
+      "attrs": [
+        {
+          "name": "датаОкончания",
+          "caption": "Дата окончания",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "суммаДокумента",
+          "caption": "Сумма документа",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ТЧЗаказE",
+          "caption": "Заказ",
+          "name": "заказ",
+          "relatedTo": "i-i-s-finalochka-т-ч-заказ",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ЗаказПоставщикуL",
+      "modelName": "i-i-s-finalochka-заказ-пост",
+      "attrs": [
+        {
+          "name": "датаОкончания",
+          "caption": "Дата окончания",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "суммаДокумента",
+          "caption": "Сумма документа",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

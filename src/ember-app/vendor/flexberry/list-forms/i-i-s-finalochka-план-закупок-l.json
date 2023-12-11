@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalochka-план-закупок-e",
+  "editForm": "i-i-s-finalochka-план-закупок-e",
+  "external": false,
+  "caption": "План закупок",
+  "name": "IISFinalochkaПланЗакупокL",
+  "className": "ПланЗакупокL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalochka-план-закупок",
+      "modelProjection": "ПланЗакупокL"
+    }
+  ]
+}

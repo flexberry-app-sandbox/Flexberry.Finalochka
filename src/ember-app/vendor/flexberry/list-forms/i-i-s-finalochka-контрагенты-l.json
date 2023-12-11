@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalochka-контрагенты-e",
+  "editForm": "i-i-s-finalochka-контрагенты-e",
+  "external": false,
+  "caption": "Контрагенты",
+  "name": "IISFinalochkaКонтрагентыL",
+  "className": "КонтрагентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalochka-контрагенты",
+      "modelProjection": "КонтрагентыL"
+    }
+  ]
+}

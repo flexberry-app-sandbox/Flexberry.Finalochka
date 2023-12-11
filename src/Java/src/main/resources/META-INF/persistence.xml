@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Finalochka.model.TCHZakaz</class>
+        <class>Finalochka.model.Nomenklatura</class>
+        <class>Finalochka.model.Organizacii</class>
+        <class>Finalochka.model.OtchetOZakupkax</class>
+        <class>Finalochka.model.Plan</class>
+        <class>Finalochka.model.ZakazPost</class>
+        <class>Finalochka.model.Sklady</class>
+        <class>Finalochka.model.EdinicyIzmer</class>
+        <class>Finalochka.model.PlanZakupok</class>
+        <class>Finalochka.model.Kontragenty</class>
+        <class>Finalochka.model.FlexberryAdvLimit</class>
+        <class>Finalochka.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Finalochka.model.NewPlatformFlexberryServicesLock</class>
+        <class>Finalochka.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

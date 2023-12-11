@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalochka-единицы-измер-e",
+  "editForm": "i-i-s-finalochka-единицы-измер-e",
+  "external": false,
+  "caption": "Единицы измер",
+  "name": "IISFinalochkaЕдиницыИзмерL",
+  "className": "ЕдиницыИзмерL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalochka-единицы-измер",
+      "modelProjection": "ЕдиницыИзмерL"
+    }
+  ]
+}

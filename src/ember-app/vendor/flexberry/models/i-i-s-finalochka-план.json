@@ -1,0 +1,142 @@
+﻿{
+  "name": "IISFinalochkaПлан",
+  "modelName": "i-i-s-finalochka-план",
+  "className": "План",
+  "nameSpace": "IIS.Finalochka",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "этоУслуга",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "единицыИзмер",
+      "relatedTo": "i-i-s-finalochka-единицы-измер",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "номенклатура",
+      "relatedTo": "i-i-s-finalochka-номенклатура",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "планЗакупок",
+      "relatedTo": "i-i-s-finalochka-план-закупок",
+      "inverse": "план"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПланE",
+      "modelName": "i-i-s-finalochka-план",
+      "attrs": [
+        {
+          "name": "этоУслуга",
+          "caption": "Это услуга",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Номенклатура",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Номенклатура.Контрагенты",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "контрагент",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 4
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "контрагенты",
+              "relatedTo": "i-i-s-finalochka-контрагенты",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номенклатура",
+              "caption": "",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "номенклатура",
+          "relatedTo": "i-i-s-finalochka-номенклатура",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ЕдиницыИзмер",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "единицаИзмер",
+              "caption": "",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "единицыИзмер",
+          "relatedTo": "i-i-s-finalochka-единицы-измер",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

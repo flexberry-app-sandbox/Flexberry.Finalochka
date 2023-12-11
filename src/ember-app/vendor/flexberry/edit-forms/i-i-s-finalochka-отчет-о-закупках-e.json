@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Отчет о закупках",
+  "name": "IISFinalochkaОтчетОЗакупкахE",
+  "className": "ОтчетОЗакупкахE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalochka-отчет-о-закупках",
+      "modelProjection": "ОтчетОЗакупкахE"
+    }
+  ]
+}

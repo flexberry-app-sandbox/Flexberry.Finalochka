@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalochka-номенклатура-e",
+  "editForm": "i-i-s-finalochka-номенклатура-e",
+  "external": false,
+  "caption": "Номенклатура",
+  "name": "IISFinalochkaНоменклатураL",
+  "className": "НоменклатураL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalochka-номенклатура",
+      "modelProjection": "НоменклатураL"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Finalochka",
+  "applicationTitle": "Finalochka",
+  "items": [
+    {
+      "link": null,
+      "menuName": "finalochka",
+      "caption": "Finalochka",
+      "title": "Finalochka",
+      "children": [
+        {
+          "link": "i-i-s-finalochka-номенклатура-l",
+          "menuName": null,
+          "caption": "Номенклатура",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalochka-организации-l",
+          "menuName": null,
+          "caption": "Организации",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalochka-отчет-о-закупках-l",
+          "menuName": null,
+          "caption": "Отчет о закупках",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalochka-заказ-пост-l",
+          "menuName": null,
+          "caption": "Заказ пост",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalochka-склады-l",
+          "menuName": null,
+          "caption": "Склады",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalochka-единицы-измер-l",
+          "menuName": null,
+          "caption": "Единицы измер",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalochka-план-закупок-l",
+          "menuName": null,
+          "caption": "План закупок",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalochka-контрагенты-l",
+          "menuName": null,
+          "caption": "Контрагенты",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

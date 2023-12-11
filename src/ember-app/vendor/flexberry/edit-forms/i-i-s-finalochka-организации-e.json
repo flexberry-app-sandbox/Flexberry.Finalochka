@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Организации",
+  "name": "IISFinalochkaОрганизацииE",
+  "className": "ОрганизацииE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalochka-организации",
+      "modelProjection": "ОрганизацииE"
+    }
+  ]
+}

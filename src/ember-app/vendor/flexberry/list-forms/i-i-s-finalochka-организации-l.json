@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalochka-организации-e",
+  "editForm": "i-i-s-finalochka-организации-e",
+  "external": false,
+  "caption": "Организации",
+  "name": "IISFinalochkaОрганизацииL",
+  "className": "ОрганизацииL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalochka-организации",
+      "modelProjection": "ОрганизацииL"
+    }
+  ]
+}
