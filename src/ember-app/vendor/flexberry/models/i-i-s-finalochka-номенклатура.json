@@ -48,14 +48,14 @@
           "attrs": [
             {
               "name": "контрагент",
-              "caption": "",
+              "caption": "Контрагент",
               "hidden": false,
               "index": 1
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "",
+          "caption": "Контрагент",
           "name": "контрагенты",
           "relatedTo": "i-i-s-finalochka-контрагенты",
           "inverse": null

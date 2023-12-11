@@ -28,49 +28,48 @@ export default Controller.extend({
             link: 'i-i-s-finalochka-номенклатура-l',
             caption: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-номенклатура-l.caption'),
             title: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-номенклатура-l.title'),
-            icon: 'chart bar',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-finalochka-организации-l',
             caption: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-организации-l.caption'),
             title: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-организации-l.title'),
-            icon: 'folder',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-finalochka-отчет-о-закупках-l',
             caption: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-отчет-о-закупках-l.caption'),
             title: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-отчет-о-закупках-l.title'),
-            icon: 'briefcase',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-finalochka-заказ-пост-l',
             caption: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-заказ-пост-l.caption'),
             title: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-заказ-пост-l.title'),
-            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-finalochka-склады-l',
             caption: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-склады-l.caption'),
             title: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-склады-l.title'),
-            icon: 'tags',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-finalochka-единицы-измер-l',
             caption: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-единицы-измер-l.caption'),
             title: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-единицы-измер-l.title'),
-            icon: 'building',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-finalochka-план-закупок-l',
             caption: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-план-закупок-l.caption'),
             title: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-план-закупок-l.title'),
-            icon: 'suitcase',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-finalochka-контрагенты-l',
             caption: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-контрагенты-l.caption'),
             title: i18n.t('forms.application.sitemap.finalochka.i-i-s-finalochka-контрагенты-l.title'),
-            icon: 'folder open',
+            icon: 'book',
             children: null
           }]
         }

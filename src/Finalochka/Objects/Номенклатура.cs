@@ -30,7 +30,7 @@ namespace IIS.Finalochka
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("НоменклатураE", new string[] {
             "Номенклатура as \'Номенклатура\'",
-            "Контрагенты.Контрагент"})]
+            "Контрагенты.Контрагент as \'Контрагент\'"})]
     [View("НоменклатураL", new string[] {
             "Номенклатура as \'Номенклатура\'"})]
     public class Номенклатура : ICSSoft.STORMNET.DataObject

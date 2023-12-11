@@ -28,8 +28,8 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('НоменклатураE', 'i-i-s-finalochka-номенклатура', {
     номенклатура: attr('Номенклатура', { index: 0 }),
-    контрагенты: belongsTo('i-i-s-finalochka-контрагенты', '', {
-      контрагент: attr('', { index: 1 })
+    контрагенты: belongsTo('i-i-s-finalochka-контрагенты', 'Контрагент', {
+      контрагент: attr('Контрагент', { index: 1 })
     }, { index: -1, hidden: true })
   });
 
