@@ -4,64 +4,64 @@
   "items": [
     {
       "link": null,
-      "menuName": "finalochka",
-      "caption": "Finalochka",
-      "title": "Finalochka",
+      "menuName": "new-folder1",
+      "caption": "NewFolder1",
+      "title": "NewFolder1",
       "children": [
         {
-          "link": "i-i-s-finalochka-номенклатура-l",
+          "link": "i-i-s-finalochka-план-закупок-l",
           "menuName": null,
-          "caption": "Номенклатура",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-finalochka-организации-l",
-          "menuName": null,
-          "caption": "Организации",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-finalochka-отчет-о-закупках-l",
-          "menuName": null,
-          "caption": "Отчет о закупках",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-finalochka-заказ-пост-l",
-          "menuName": null,
-          "caption": "Заказ пост",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-finalochka-склады-l",
-          "menuName": null,
-          "caption": "Склады",
-          "title": "",
+          "caption": "ПланЗакупокL",
+          "title": "План закупок",
           "children": null
         },
         {
           "link": "i-i-s-finalochka-единицы-измер-l",
           "menuName": null,
-          "caption": "Единицы измер",
-          "title": "",
+          "caption": "ЕдиницыИзмерL",
+          "title": "Единицы измер",
           "children": null
         },
         {
-          "link": "i-i-s-finalochka-план-закупок-l",
+          "link": "i-i-s-finalochka-номенклатура-l",
           "menuName": null,
-          "caption": "План закупок",
-          "title": "",
+          "caption": "НоменклатураL",
+          "title": "Номенклатура",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalochka-заказ-пост-l",
+          "menuName": null,
+          "caption": "ЗаказПостL",
+          "title": "Заказ пост",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalochka-организации-l",
+          "menuName": null,
+          "caption": "ОрганизацииL",
+          "title": "Организации",
           "children": null
         },
         {
           "link": "i-i-s-finalochka-контрагенты-l",
           "menuName": null,
-          "caption": "Контрагенты",
-          "title": "",
+          "caption": "КонтрагентыL",
+          "title": "Контрагенты",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalochka-склады-l",
+          "menuName": null,
+          "caption": "СкладыL",
+          "title": "Склады",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalochka-отчет-о-закупках-l",
+          "menuName": null,
+          "caption": "ОтчетОЗакупкахL",
+          "title": "Отчет о закупках",
           "children": null
         }
       ]

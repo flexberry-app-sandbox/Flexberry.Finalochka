@@ -108,6 +108,42 @@ $.extend(true, translations, {
           caption: 'Home',
           title: ''
         },
+        'new-folder1': {
+          caption: 'NewFolder1',
+          title: 'NewFolder1',
+          'i-i-s-finalochka-план-закупок-l': {
+            caption: 'ПланЗакупокL',
+            title: 'План закупок'
+          },
+          'i-i-s-finalochka-единицы-измер-l': {
+            caption: 'ЕдиницыИзмерL',
+            title: 'Единицы измер'
+          },
+          'i-i-s-finalochka-номенклатура-l': {
+            caption: 'НоменклатураL',
+            title: 'Номенклатура'
+          },
+          'i-i-s-finalochka-заказ-пост-l': {
+            caption: 'ЗаказПостL',
+            title: 'Заказ пост'
+          },
+          'i-i-s-finalochka-организации-l': {
+            caption: 'ОрганизацииL',
+            title: 'Организации'
+          },
+          'i-i-s-finalochka-контрагенты-l': {
+            caption: 'КонтрагентыL',
+            title: 'Контрагенты'
+          },
+          'i-i-s-finalochka-склады-l': {
+            caption: 'СкладыL',
+            title: 'Склады'
+          },
+          'i-i-s-finalochka-отчет-о-закупках-l': {
+            caption: 'ОтчетОЗакупкахL',
+            title: 'Отчет о закупках'
+          }
+        },
         finalochka: {
           caption: 'Finalochka',
           title: 'Finalochka',
